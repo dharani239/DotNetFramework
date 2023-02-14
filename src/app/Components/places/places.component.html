@@ -1,0 +1,16 @@
+<h2>List of places that u can visit!!</h2>
+<hr/>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Tourist Place</th>
+        <th>Details</th>
+    </tr>
+    <tr *ngFor="let place of places">
+            <td>{{place.PlaceID}}</td>
+            <td>{{place.Name}}</td>
+            <td>{{place.Description}}</td>
+            <td><a href="#">View More......</a></td>
+    </tr>
+</table>
+
